@@ -1,0 +1,150 @@
+/*
+.first-color { 
+	background: #ffcbcb; 
+}
+	
+.second-color { 
+	background: #ffb5b5; 
+}
+
+.third-color { 
+	background: #407088; 
+}
+
+.fourth-color { 
+	background: #132743; 
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sapartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: black;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: black;
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+p {
+    font-size: 16px;
+    color: blueviolet;
+    margin: 15px 0 20px 0;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+    background: #ffcbcb;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20px;
+    /* Alterado de 20px 80px para 20px 20px*/
+    background: #ffb5b5;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    width: 100%;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 15px;
+    position: relative;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #132743;
+    transition: 0.45s ease;
+
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 440;
+    /*De 400 até 900*/
+    font-style: normal;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: #407088;
+}
+
+#navbar li a:hover::after,
+#navbar li a.active::after {
+    content: "";
+    width: 20%;
+    height: 2px;
+    background: #407088;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.cart-link img {
+    border: 1.5px solid transparent;
+    border-radius: 6px;
+    transition: box-shadow 0.5s ease;
+    padding: 1px;
+}
+
+.cart-link:hover img {
+    box-shadow: 0 0 3px #132743;
+}
+
+CROCHET {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 440;
+    /*De 400 até 900*/
+    font-style: normal;
+    font-size: 28px;
+    color: #132743;
+}
+
+Sofie {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    /*De 400 até 700*/
+    font-style: normal;
+    font-size: 32px;
+    color: #132743;
+    
+}
