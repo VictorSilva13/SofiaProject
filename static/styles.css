@@ -48,6 +48,7 @@ body {
     position: sticky;
     top: 0;
     left: 0;
+    z-index: 999;
 }
 
 #navbar {
@@ -179,10 +180,41 @@ Sofie {
 
 #hero button{
     background-color: #80a8bd;
-    padding: 5px;
+    padding: 8px;
     border-radius: 10px;
     cursor: pointer;
     font-family: "Cinzel", serif;
     font-weight: 700;
     font-size: 15px;
+}
+
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#feature h6{
+    font-size: 13px;
+}
+
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 10px 10px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #132743;
+    border-width: 1.5px;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover{
+    box-shadow: 5px 5px 15px #132743;
+}
+
+.fe-box img{
+    width: 100%;
+    border-radius: 10px;
 }
