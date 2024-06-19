@@ -24,7 +24,7 @@
 }
 
 .section-p1 {
-    padding: 40px 80px;
+    padding: 40px 200px;
 }
 
 .section-m1 {
@@ -208,10 +208,6 @@ Sofie {
     border-width: 1.5px;
     border-radius: 10px;
     margin: 15px 0;
-}
-
-#feature .fe-box:hover{
-    box-shadow: 5px 5px 15px #132743;
 }
 
 .fe-box img{
