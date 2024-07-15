@@ -124,7 +124,7 @@ Sofie {
     color: black;
 }
 
-#hero{
+#hero {
     padding: 20px;
     background-image: url("../media/img/banner-final-azul-claro.jpg");
     height: 90vh;
@@ -139,7 +139,7 @@ Sofie {
     justify-content: center;
 }
 
-#hero h4{
+#hero h4 {
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
     font-weight: 600;
@@ -178,7 +178,7 @@ Sofie {
     margin: 15px 0 20px 0;
 }
 
-#hero button{
+#hero button {
     background-color: #80a8bd;
     padding: 8px;
     border-radius: 10px;
@@ -188,18 +188,18 @@ Sofie {
     font-size: 15px;
 }
 
-#feature{
+#feature {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-#feature h6{
+#feature h6 {
     font-size: 13px;
 }
 
-#feature .fe-box{
+#feature .fe-box {
     width: 180px;
     text-align: center;
     padding: 10px 10px;
@@ -210,7 +210,66 @@ Sofie {
     margin: 15px 0;
 }
 
-.fe-box img{
+.fe-box img {
     width: 100%;
     border-radius: 10px;
+}
+
+#product1 {
+    text-align: center;
+}
+
+#product1 .pro {
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 35px 0;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+}
+
+#product1 .pro:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#product1 .pro .des {
+    text-align: left;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span { /* Tipo de linha */
+    color: rgb(221, 218, 218);
+    font-size: 12px;
+}
+
+#product1 .pro .des h5 { /* Nome */
+    padding-top: 7px;
+    font-size: 14px;
+}
+
+#product1 .pro .des h4 { /* Preço */
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: green;
+}
+
+.special-edition-tag p{
+    text-align: center;
+    background-color: #527181;
+    /* Cor de fundo da tag */
+    color: white;
+    /* Cor do texto da tag */
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 20px;
 }
