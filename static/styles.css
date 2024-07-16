@@ -291,3 +291,59 @@ Sofie {
     border-radius: 5px;
     margin-top: 20px;
 }
+
+.logo{
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: #527181;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 70px;
+}
+
+footer a{
+    color: black;
+}
+
+footer h4{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+
+footer .last-jump{
+    padding-bottom: 20px;
+}
+
+footer .social-icons {
+    display: flex;
+    justify-content: center; /* Centraliza os ícones horizontalmente */
+    gap: 20px; /* Espaçamento igual entre os ícones */
+    width: 100%;
+}
+
+footer .social-icons i {
+    font-size: 30px;
+}
+
+footer .developer{
+    font-size: 12px;
+    padding-top: 25px;
+}
+
+#github-ico{
+    font-size: 14px;
+}
